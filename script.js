@@ -6,6 +6,17 @@
 
 //------------------------CSV-BEHANDLING---------------------------------|
 
+import Papa from 'papaparse';
+
+
+const file = new File("/letterboxd_data/watchlist.csv")
+
+Papa.parse(file, {
+    complete: function (results) {
+        console.log("Finished: ", results.data)
+    }
+});
+
 let test = document.getElementById("filmTitle");
 
 test.innerHTML = "Lord of the Rings: The Fellowship of the Ring"

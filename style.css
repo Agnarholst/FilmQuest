@@ -2,8 +2,7 @@ body {
   background-color: #14181c;
 }
 
-.filmHeading,
-.title {
+.filmHeading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,4 +16,51 @@ body {
 .title {
   color: white;
   font-family: "Source-Serif-4", sans-serif;
+}
+
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e272f;
+  color: white;
+  font-family: "Source-Serif-4", sans-serif;
+
+}
+
+.topNavBar {
+  display: flex;
+}
+
+nav ul, .summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #87a0b9;
+  font-size: 18px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+li {
+  padding-left: 30px;
+}
+
+li:hover {
+  color: white;
+}
+
+.text {
+  color: white;
+  font-family: "Source-Serif-4", sans-serif;
+}
+
+.aboutFilm {
+  background-color: #192127;
+  margin-top: 100px;
+  padding: 20px;
+  
 }
