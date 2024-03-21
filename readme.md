@@ -1,0 +1,1 @@
+For å starte serveren må manb skrive inn i terminalen http-server. 
